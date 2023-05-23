@@ -1,0 +1,9 @@
+body{background:linear-gradient(rgb(115, 62, 238),linen,mistyrose,linen,seashell);}
+h1{background-color: rgb(103, 4, 231);text-align: center; font-size: 50px; font-family: Arial;border: groove rgb(154, 160, 243); border-radius: 50px;}
+p{background-color: rgb(50, 50, 119);text-align: center; font-size: 35px; font-family: Impact; border: double powderblue; padding: 5px; border-width: 5px 20px; border-radius: 30px; margin-right: 100px; margin-left: 100px;}
+a{background-color: rgb(78, 75, 247);text-align: center; font-size: 30px; font-family:'Segoe UI'; color: rgb(59, 5, 255);border-right: solid rgb(82, 7, 126);border-left: solid rgb(133, 11, 112);}
+label{background-color: rgb(233, 250, 0); text-align: center; font-size: 35px; font-family: 'Segoe UI';border: groove rgb(99, 99, 250); border-radius: 50px; margin-top: 50px; margin-bottom: 50px;}
+h2{background-color: rgb(43, 80, 105); text-align: center;font-size: 40px; font-family: Impact; border: dotted rgb(101, 28, 238); padding: 5px; border-width: 5px;border-radius: 20px;}
+input{background-color: powderblue ; color: rgb(73, 10, 247); text-align: center;border: groove rgb(66, 166, 216); border-radius: 50px;}
+form{background: radial-gradient(mediumslateblue,cornflowerblue,lightskyblue); text-align: center; border: dashed rgb(99, 99, 250); border-radius: 50px;}
+textarea{background-color: rgb(138, 72, 243); color: rgb(38, 1, 247); width: 200px; height: 50px;border: groove cornflowerblue; border-radius: 20px;}

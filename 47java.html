@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       let n = +prompt("Число ворон?", 15);
+let a1 = "", a2 = "";
+let n1 = n % 10, n10 = n % 100;
+if ((n10 >= 11 && n10 <= 19) || (n1 >= 5 && n1 <= 9) || (n1 == 0)) {
+  a1 = "о";
+  a2 = "";
+} else if (n1 == 1) {
+  a1 = "a";
+  a2 = "a";
+} else if (n1 >= 2 && n1 < 5) {
+  a1 = "и";
+  a2 = "ы";
+}
+alert(`На ветке сидел${a1} ${n} ворон${a2}`);
+    </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+div {
+    width: 50%; height: 30%; display: inline-block; margin-right: 10px;
+}
+div:hover {
+    background: #880088; 
+}
+.b {
+    background: black;
+}
+.r {
+    background: red;
+}

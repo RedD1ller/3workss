@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            margin: 20px 0 0 100px;
+            border: 1px solid red;
+            width: 320px;
+            height: 50px;
+            transform-origin: left center;
+        }
+        #rotate{
+            transform: rotate(5deg);
+        }
+        #move{
+            transform: translate(50px, -30px);
+        }
+        #size{
+            transform: scale(1.5, 0.6);
+        }
+        #pr{
+            transform: scale(-1, 1);
+        }
+        #skew{
+            transform: skew(10deg, 10deg);
+        }
+    </style>
+</head>
+<body>
+    <div id="rotate">вращение блока</div>
+    <div id="move">вращение блока</div>
+    <div id="size">искажение блока</div>
+    <div id="pr">зеркальное отображен</div>
+    <div id="skew">искажение блока</div>
+</body>
+</html>
